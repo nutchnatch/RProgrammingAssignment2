@@ -9,6 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
     x <<-y
     m <- NULL
   }
+  get <- function() x
 }
 
 
